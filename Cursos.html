@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRENDE SKATE</title>
+    <!-- Enlaces a los archivos CSS y JS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="Principal.html">
+                <img src="Imagenes/cerrarSesion.png" alt="Logo" style="width: 30px; height: 30px;">
+            </a>
+            <!--<a class="text-uppercase fw-bolder navbar-brand" href="#">Clases de Skate</a>-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+        </div>
+    </nav>
+
+    <!-- Encabezado con imagen de fondo y título -->
+    <header style="background-image: url('Imagenes/fondoCURSOS.jpg'); background-size: cover; background-position: center; height: 100vh;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col text-center text-white">
+                    <h1 class="display-4 fw-bolder">APRENDE A MONTAR SKATE</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Carrusel de niveles -->
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a href="#nivel1" class="text-decoration-none">
+                                            <img src="Imagenes/Paso1.jpg" alt="Nivel 1" class="card-img-top">
+                                        </a>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Marco teórico</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a href="#nivel1" class="text-decoration-none">
+                                            <img src="Imagenes/Paso2.jpg" alt="Nivel 1" class="card-img-top">
+                                        </a>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Curso Número 1 - Principiante</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a href="#nivel1" class="text-decoration-none">
+                                            <img src="Imagenes/Paso3.jpg" alt="Nivel 1" class="card-img-top">
+                                        </a>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Curso 2 - Truco madre, ollie</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a href="#nivel1" class="text-decoration-none">
+                                            <img src="Imagenes/Paso4.jpg" alt="Nivel 1" class="card-img-top">
+                                        </a>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Curso 3 - Descomponer los trucos básicos</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a href="#nivel4" class="text-decoration-none">
+                                            <img src="Imagenes/Paso5.jpg" alt="Nivel 1" class="card-img-top">
+                                        </a>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Curso 4 - Sumatoria de trucos</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a href="#nivel5" class="text-decoration-none">
+                                            <img src="Imagenes/pexels-photo-2086530.jpg" alt="Nivel 1" class="card-img-top">
+                                        </a>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Curso 5 - Comprender los trucos avanzados</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contenido de niveles -->
+    <div id="nivel0" class="container mt-5">
+        <h2 class="text-center">Marco teórico</h2>
+        <p>El Skateboarding surge en California a mediados de mis 1940 por surfistas de California que durante los días sin olas se dieron cuenta que no tenían la opción de practicar su deporte favorito. Nadie sabe a ciencia cierta quién creo la primera
+            tabla puesto que varios surfistas tuvieron ideas similares al mismo tiempo.</p>
+
+        <p>El skateboarding enfoca el desarrollo de habilidades como instinto, como reaccionar en una situación en cuestión de segundos, capacidades motrices como resistencia, elasticidad/Flexibilidad y fuerza en el tren superior Con base al proyecto "How
+            to skateboarding" Se busca enseñar y garantizar un aprendizaje Guiado por una series de pasos y datos importantes que casi nadie toma en cuenta a la hora de enseñar. </p>
+
+        <p>Se fomenta la enseñanza con el fin de evitar riesgos, fracturas, lesiones, con un objetivo de concientizar y de tener en cuenta de que es un deporte de alto riesgo si no es practicado debidamente y/o supervisado por un conocido.</p>
+
+        <p>Aprender Mediante la plataforma es un reto tanto para el estudiante como para la persona encargada de dicha página, Tanto uno como el otro tienen sus diferentes dificultades, pero con el objetivo compartido de fomentar un aprendizaje digno y complementario</p>
+    </div>
+    <div id="nivel1" class="container mt-5">
+        <h2 class="text-center">Curso Número 1 - Principiante</h2>
+        <p>
+            <ul>
+                <li>Definir posición de montar Goofy (con el pie derecho adelante) o (regular, pie izquierdo adelante).</li>
+                <li>Entender el equilibrio base de estar parado.</li>
+                <li>Aprender a hacer tic tocs o relojitos con la tabla.</li>
+            </ul>
+        </p>
+    </div>
+
+    <div id="nivel2" class="container mt-5">
+        <h2 class="text-center">Curso 2 - Truco madre, ollie</h2>
+        <p>
+            <ul>
+                <li>Entender el fundamento de los movimientos claves para poder realizar el ollie, el ollie es el truco considerado como madre ya que con el y las bases de sus movimientos se generan los trucos avanzados.</li>
+                <li>Descomponer cada movimiento del pie y hombros para que a la hora de juntarlos sea coordinado y preciso.</li>
+                <li>Entender los 7 trucos básicos y memorizar sus nombres y con ellos las acciones de cada uno.</li>
+                <li>Nombre de los 7 trucos básicos: Ollie, Frontside 180, Backside 180, Pop shove it (Varial), fs Pop shove it, Kickflip, Heelflip.</li>
+            </ul>
+        </p>
+    </div>
+    <div id="nivel3" class="container mt-5">
+        <h2 class="text-center">Curso 3 - Descomponer los trucos básicos</h2>
+        <p>
+            <ul>
+                <li>Una vez aprendido lo trucos por sus nombres, es hora de aprenderlos por la práctica.</li>
+                <li>Entender el fundamento de diferentes posiciones para lograrlos, fakie (ir en reversa) Nollie (Hacer los trucos con la parte delantera del skate) Swith (Cambio de postura, si montas regular, montar de swith significaría montar de Goofy
+                    por un tiempo x y viceversa).</li>
+                <li>Descomponer cada uno de los trucos básicos y memorizar movimientos desde sus raíces.</li>
+                <li>llevarlos a la práctica.</li>
+            </ul>
+        </p>
+        <div id="nivel4" class="container mt-5">
+            <h2 class="text-center">Curso 4 - Sumatoria de trucos</h2>
+            <p>Una vez aprendido los trucos básicos y sus posibles variantes, es hora de empezar a sumar, es decir Un Pop shove it + Un kickflip = Varial flip o flip varial.</p>
+            <p>Entender el fundamento de sumar, y cuales son los trucos que se pueden sumar y sus respectivos nombres:
+                <ul>
+                    <li>Frontside + fs Pop Shove it = Frontside Bigspin</li>
+                    <li>Frontside + flip = Frontside flip</li>
+                    <li>Frontside + heelflip = Frontside heelflip</li>
+                </ul>
+                <ul>
+                    <li>Backside + Varial = Bigspin</li>
+                    <li>Backside + flip = Backside flip</li>
+                    <li>Backside + heelflip = Backside heel</li>
+                </ul>
+                <ul>
+                    <li>Varial + flip = Flip varial o varial flip</li>
+                    <li>Varial + Heelflip = Inward heelflip</li>
+                    <li>Varial 360 + flip = 360flip</li>
+                    <li>Varial + backside + flip= Bigspinflip </li>
+                </ul>
+                <ul>
+                    <li>Fs Pop shove it + Flip = Hardflip</li>
+                    <li>Fs Pop shove it + Heelflip= Varial Heelflip</li>
+                    <li>Fs Pop shove it + Frontside + Flip= Frontside Bigspinflip</li>
+                </ul>
+                Una vez aprendido a sumar, y saber cuáles son las sumatorias que el alumno puede lograr, colocar en práctica algunas fáciles como Varial + Flip = a Varial flip.
+            </p>
+        </div>
+        <div id="nivel5" class="container mt-5">
+            <h2 class="text-center">Curso 5 - Comprender los trucos avanzados</h2>
+            <p>
+                <ul>
+                    <li>Los trucos avanzados parten de la sumatoria de algunas Sumatorias de las que se vieron anteriormente, es decir, si se suma un Backside 360 más un varial 360 Se tiene como resultado Gazelle spin.</li>
+                    <li>Aprender a identificar un truco y saberlo descomponer por partes y como nombrarlo, dándole prioridad primero, a la postura, sea fakie, Nollie, swith o natural, Luego el giro del cuerpo, sea backside o frontside, luego los grados que
+                        da sean 180 o 360, luego, si el truco lleva un flip o heelflip Un ejemplo sería, Swith Frontside Bigspinflip.</li>
+                </ul>
+            </p>
+        </div>
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="margin-bottom: 20px;">
+                        <!-- Aumentar el espacio inferior aquí -->
+                        <div class="card-body">
+                            <!-- Contenido del card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pie de página fijo -->
+        <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+            <div class="container">
+                <p>&copy; 2023 Clases de Skate</p>
+            </div>
+        </footer>
+
+        <!-- Agrega enlaces a los archivos JavaScript de Bootstrap y jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
